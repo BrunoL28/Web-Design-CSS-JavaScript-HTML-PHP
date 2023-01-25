@@ -5,20 +5,74 @@
 <head>
     <title>Página Completa</title>
     <meta charset="UTF-8">
+    <style>
+        body{
+            background-color: bisque;
+            color: lightseagreen;
+        }
+    </style>
 </head>
 <body>
     <!--Cabeçalho-->
     <header>
-        <nav></nav>
+        <form action="processa.php" method="post">
+        
+            <label>Usuário</label>
+            <input type="text" name="texto1" placeholder="user">
+    
+            <br>
+    
+            <label>Senha</label>
+            <input type="password" name="senha">
+    
+            <br>
+        </form>
+        <nav>
+            <p>
+                <small>Este é um site para teste, no intuito de aprender a desenvolver sites html</small><br>
+            </p>
+        </nav>
     </header>
+    <hr>
     <!--Conteúdo-->
     <div>
         <article>
-            <section></section>
+            <label>Tabela</label>
+            <section>
+                <table border="1">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Profissão</th>
+                    </tr>
+                    <tr> 
+                        <td>José</td>
+                        <td>19</td>
+                        <td>Estudante</td>
+                    </tr>
+                    <tr> 
+                        <td>João</td>
+                        <td>26</td>
+                        <td>Designer</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                        <td>22</td>
+                        <td>Advogada</td>
+                    </tr>
+                </table>
+            </section>
         </article>
-        <aside></aside>
+        <aside>
+            <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small><br></p>
+        </aside>
     </div>
+    <hr>
     <!--Rodapé-->
-    <footer></footer>
+    <footer>
+        <p>
+            <small>Este é o fim desse site. Obrigado por vê-lo até aqui.</small><br>
+        </p>
+    </footer>
 </body>
 </html>
