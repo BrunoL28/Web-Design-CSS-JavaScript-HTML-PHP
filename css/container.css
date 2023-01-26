@@ -17,13 +17,13 @@ body{
 
 header{
     background-color: green;
-    height: 100px;
+    height: 400px;
 }
 
 footer{
     clear: both;
     background-color: blue;
-    height: 50px;
+    height: 200px;
 }
 
 /*ID's*/

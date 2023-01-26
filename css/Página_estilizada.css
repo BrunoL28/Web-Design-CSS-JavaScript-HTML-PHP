@@ -12,8 +12,8 @@ body{
 
 header{
     background-color: #35b8b0;
-    height: 80px;
-    padding: 20px;
+    height: 150px;
+    padding: 10px;
 }
 
 footer{
@@ -21,7 +21,7 @@ footer{
     clear: both;
     height: 50px;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 h1{
