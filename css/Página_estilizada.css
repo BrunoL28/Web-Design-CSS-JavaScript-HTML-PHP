@@ -1,13 +1,18 @@
 /*TAGS*/
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
 
 body{
-    background-color: #000000;
+    background-color: #000;
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: Helvetica, arial;
+    font-family: Helvetica, Arial;
 }
 
 header{
@@ -26,15 +31,17 @@ footer{
 
 h1{
     color: white;
+    text-align: center;
+    margin: 0 0 100px 0;
 }
 
 /*DIV*/
 
 #div_principal{
-    background-color: red;
-    min-height: 200px;
-    width: 60%;
-    float: left;
+    background-image: url('C:/Users/bruno/OneDrive/Área de Trabalho/brunopds/Udemy - Web Design/Web-Design-CSS-JavaScript-HTML-PHP/css/wallpaper.jpg');
+    background-size: 100%;
+    min-height: 600px;
+    padding: 100px 0 0 0;
 }
 
 /*CLASS*/
