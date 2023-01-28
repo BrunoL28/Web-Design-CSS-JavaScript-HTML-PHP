@@ -18,8 +18,8 @@ body{
 
 header{
     background-color: tomato;
-    height: 150px;
-    padding: 10px;
+    height: 110px;
+    padding: 10px 0 0 0;
 }
 
 footer{
@@ -45,16 +45,25 @@ h1{
     background-image: url('C:/Users/bruno/OneDrive/Área de Trabalho/brunopds/Udemy - Web Design/Web-Design-CSS-JavaScript-HTML-PHP/css/wallpaper.jpg');
     background-size: 100%;
     min-height: 400px;
-    padding: 50px 0 10px 0;
+    padding: 40px 0 0 0;
     clear: both;
 }
 
 #logo{
     float: left;
+    margin-bottom: auto;
 }
 
 #menu{
     float: right;
+    margin-top: 40px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px #111111;
+    padding: 15px;
 }
 
 /*CLASS*/
