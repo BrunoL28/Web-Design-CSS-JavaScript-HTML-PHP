@@ -16,13 +16,13 @@ body{
 }
 
 header{
-    background-color: #35b8b0;
+    background-color: tomato;
     height: 150px;
     padding: 10px;
 }
 
 footer{
-    background-color: #35b8b0;
+    background-color: tomato;
     clear: both;
     height: 50px;
     text-align: center;
