@@ -39,13 +39,22 @@ h1{
     margin: 0 0 50px 0;
 }
 
-/*DIV*/
+/*ID's*/
 
 #principal{
     background-image: url('C:/Users/bruno/OneDrive/Área de Trabalho/brunopds/Udemy - Web Design/Web-Design-CSS-JavaScript-HTML-PHP/css/wallpaper.jpg');
     background-size: 100%;
     min-height: 400px;
     padding: 50px 0 10px 0;
+    clear: both;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
 }
 
 /*CLASS*/
