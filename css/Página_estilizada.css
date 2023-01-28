@@ -36,7 +36,7 @@ h1{
     color: tomato;
     text-shadow: 1px 1px 1px #111111;
     text-align: center;
-    margin: 0 0 100px 0;
+    margin: 0 0 50px 0;
 }
 
 /*DIV*/
@@ -44,8 +44,8 @@ h1{
 #principal{
     background-image: url('C:/Users/bruno/OneDrive/Área de Trabalho/brunopds/Udemy - Web Design/Web-Design-CSS-JavaScript-HTML-PHP/css/wallpaper.jpg');
     background-size: 100%;
-    min-height: 600px;
-    padding: 100px 0 0 0;
+    min-height: 400px;
+    padding: 50px 0 10px 0;
 }
 
 /*CLASS*/
@@ -53,4 +53,9 @@ h1{
 .container{
     width: 960px;
     margin:0 auto;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 0 100px 0;
 }
