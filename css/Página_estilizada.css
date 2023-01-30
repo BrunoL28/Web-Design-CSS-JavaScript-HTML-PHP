@@ -56,14 +56,19 @@ h1{
 
 #menu{
     float: right;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 #menu a{
     text-decoration: none;
     color: black;
     text-shadow: 1px 1px #111111;
-    padding: 15px;
+    padding: 55px 25px 50px 25px;
+}
+
+#menu a:hover{
+    background-color: #111111;
+    color: tomato;
 }
 
 /*CLASS*/
